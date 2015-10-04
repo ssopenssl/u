@@ -1,0 +1,3 @@
+function FindProxyForURL(url, host) {
+  return "PROXY 192.170.1.168:8888; DIRECT;";
+    }
