@@ -40,6 +40,6 @@ var FindProxyForURL = function(init, profiles) {
     "+http home": function(url, host, scheme) {
         "use strict";
         if (host === "[::1]" || host === "localhost" || host === "127.0.0.1") return "DIRECT";
-        return "PROXY 188.166.254.234:25";
+        return "PROXY 188.166.254.234:21";
     }
 });
