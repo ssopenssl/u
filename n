@@ -1,6 +1,4 @@
-// https://pac.itzmx.com
-
-var proxy = "PROXY 192.168.10.1:25;";
+var proxy = "PROXY 188.166.254.234:25;";
 
 var domains = {
   "ip.cn": 1,
